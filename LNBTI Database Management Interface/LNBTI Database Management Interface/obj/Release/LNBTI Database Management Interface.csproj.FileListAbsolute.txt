@@ -1,0 +1,93 @@
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe.config
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.pdb
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\MySql.Data.dll
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\Google.Protobuf.dll
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\MySql.Data.xml
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.g.cs
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.g.cs
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\App.g.cs
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.cache
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.lref
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.baml
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.baml
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.g.resources
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI_Database_Management_Interface.Properties.Resources.resources
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.GenerateResource.cache
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.CopyComplete
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.exe
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.pdb
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csprojAssemblyReference.cache
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.g.cs
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.g.cs
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.baml
+C:\Users\ACER\source\repos\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.baml
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe.config
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.pdb
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\Google.Protobuf.dll
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\MySql.Data.xml
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csprojResolveAssemblyReference.cache
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.g.cs
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.g.cs
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.g.cs
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.g.cs
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\App.g.cs
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.cache
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.lref
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.baml
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.baml
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.baml
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.baml
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.g.resources
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI_Database_Management_Interface.Properties.Resources.resources
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.GenerateResource.Cache
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.exe
+C:\Users\Senesh\Desktop\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.pdb
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe.config
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.pdb
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\Google.Protobuf.dll
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\MySql.Data.xml
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csprojResolveAssemblyReference.cache
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.g.cs
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.g.cs
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.g.cs
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.g.cs
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\App.g.cs
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.cache
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.lref
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.baml
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.baml
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.baml
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.baml
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.g.resources
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI_Database_Management_Interface.Properties.Resources.resources
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.GenerateResource.Cache
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.exe
+D:\Data\LNBTI\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.pdb
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe.config
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.exe
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\LNBTI Database Management Interface.pdb
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\Google.Protobuf.dll
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\bin\Release\MySql.Data.xml
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csprojAssemblyReference.cache
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.g.cs
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.g.cs
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.g.cs
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.g.cs
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\App.g.cs
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.cache
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface_MarkupCompile.lref
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\MainWindow.baml
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\frmLogin.baml
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window2.baml
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\Window3.baml
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.g.resources
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI_Database_Management_Interface.Properties.Resources.resources
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.GenerateResource.cache
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.CoreCompileInputs.cache
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.csproj.CopyComplete
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.exe
+D:\Data\LNBTI\EDU\Semester 1\DBMS\Project\LNBTI Database Management Interface\LNBTI Database Management Interface\obj\Release\LNBTI Database Management Interface.pdb

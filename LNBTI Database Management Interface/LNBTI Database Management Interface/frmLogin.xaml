@@ -1,0 +1,31 @@
+﻿<Window x:Name="frmLogin" x:Class="LNBTI_Database_Management_Interface.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LNBTI_Database_Management_Interface"
+        mc:Ignorable="d" Height="450" Width="822" Topmost="True" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Rectangle HorizontalAlignment="Left" Height="450" Margin="584,0,0,0" Width="238" VerticalAlignment="Bottom">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3F4E99"/>
+                    <GradientStop Color="#FF66358E" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button x:Name="btnLogin" Content="Log In" HorizontalAlignment="Left" Margin="662,290,-154,0" VerticalAlignment="Top" Width="76" Height="32" Click="btnLogin_Click" Background="#FF5DACE0" Foreground="White" BorderBrush="White" TabIndex="3" FontSize="14"/>
+        <Label x:Name="lblLogin" Content="" HorizontalAlignment="Left" Height="36" Margin="594,141,-222,0" VerticalAlignment="Top" Width="212" Foreground="White"/>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Height="30" Margin="594,235,-222,0" VerticalAlignment="Top" Width="212" TabIndex="2" FontSize="16"/>
+        <Image HorizontalAlignment="Left" Height="281" VerticalAlignment="Bottom" Source="Dream-IT-Dream-Japan_cropped.png" Width="584"/>
+        <Image HorizontalAlignment="Left" Height="164" VerticalAlignment="Top" Width="300" Source="LNBTI_logo.png" Margin="142,0,0,0"/>
+        <Button x:Name="btnClose" Content="X" HorizontalAlignment="Left" Margin="792,0,0,0" VerticalAlignment="Top" Foreground="White" BorderBrush="{x:Null}" Background="{x:Null}" Width="30" Height="30" Click="Button_Click"/>
+        <ComboBox x:Name="cmbxUsername" HorizontalAlignment="Left" Height="30" Margin="594,183,0,0" VerticalAlignment="Top" Width="212" Initialized="cmbxUsername_Initialized" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="95" Margin="594,55,0,0" TextWrapping="Wrap" Text="Database Management Interface" VerticalAlignment="Top" Width="218" Foreground="White" FontSize="20"/>
+
+    </Grid>
+</Window>

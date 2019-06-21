@@ -1,0 +1,204 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LNBTI_Database_Management_Interface"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Name="frmMain" x:Class="LNBTI_Database_Management_Interface.MainWindow"
+        mc:Ignorable="d"
+        Title="LNBTI Database Management Interface" Height="782.4" Width="1386.4" WindowStartupLocation="CenterScreen" Icon="LNBTI_logo.png" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="White" Height="40" VerticalAlignment="Top" Stroke="Gray"/>
+
+        <DataGrid x:Name="dgdMain" HorizontalAlignment="Left" Height="422" Margin="435,280,0,0" VerticalAlignment="Top" Width="890" SelectionChanged="dgdMain_SelectionChanged" MouseDoubleClick="dgdMain_MouseDoubleClick"/>
+        <Button x:Name="btnLogOut" Content="Log out" HorizontalAlignment="Left" Height="26" Margin="1288,7,0,0" VerticalAlignment="Top" Width="62" Background="#FF00A8FF" BorderBrush="{x:Null}" Foreground="White" Click="btnLogOut_Click"/>
+        <Label x:Name="lblLoggedUser" Content="Administrator" HorizontalAlignment="Left" Margin="1149,7,0,0" VerticalAlignment="Top" Width="123"/>
+        <Canvas x:Name="cnvsMain" HorizontalAlignment="Left" Height="682.15" Margin="30.014,40.05,0,0" VerticalAlignment="Top" Width="400" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" UseLayoutRounding="False" Background="#FFF9F9F9" RenderTransformOrigin="0.5,0.5">
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.103"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0.598"/>
+                </TransformGroup>
+            </Canvas.RenderTransform>
+            <Label Content="Index No" Canvas.Left="70" Canvas.Top="26"/>
+            <Label Content="Name" Canvas.Left="70" Canvas.Top="50"/>
+            <TextBox x:Name="txtName" TextWrapping="Wrap" Width="159" Canvas.Left="169" Canvas.Top="54"/>
+            <Label Content="Date Of Birth" Canvas.Left="70" Canvas.Top="195"/>
+            <ComboBox x:Name="cmbxReg_No_1" Canvas.Left="169" Canvas.Top="28" Width="54" SelectedIndex="0">
+                <ComboBoxItem Content="USE"/>
+                <ComboBoxItem Content="UIT"/>
+            </ComboBox>
+            <ComboBox x:Name="cmbxReg_No_2" Canvas.Left="223" Canvas.Top="28" Width="59" SelectedIndex="0">
+                <ComboBoxItem Content="2016"/>
+                <ComboBoxItem Content="2017"/>
+            </ComboBox>
+            <ComboBox x:Name="cmbxReg_No_3" Canvas.Left="282" Canvas.Top="28" Width="52" SelectedIndex="0">
+                <ComboBoxItem Content="FEB"/>
+                <ComboBoxItem Content="OCT"/>
+            </ComboBox>
+            <TextBox x:Name="txtReg_No_4" TextWrapping="Wrap" Canvas.Left="334" Canvas.Top="30" Width="32"/>
+            <CheckBox x:Name="cxvReg_No" Content="" Canvas.Left="13" Canvas.Top="31" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfReg_No" Content="" Canvas.Left="50" Canvas.Top="31" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxvName" Content="" Canvas.Left="13" Canvas.Top="56" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfName" Content="" Canvas.Left="50" Canvas.Top="56" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxvDOB" Content="" Canvas.Left="13" Canvas.Top="201" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfDOB" Content="" Canvas.Left="50" Canvas.Top="201" Click="checkedBoxes_Click"/>
+            <DatePicker x:Name="dpkDOB" Canvas.Left="170" Canvas.Top="195" SelectedDateFormat="Short" FirstDayOfWeek="Monday"/>
+            <Label Content="Registered Date" Canvas.Left="70" Canvas.Top="74"/>
+            <CheckBox x:Name="cxvRegDate" Content="" Canvas.Left="13" Canvas.Top="80" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfRegDate" Content="" Canvas.Left="50" Canvas.Top="80" Click="checkedBoxes_Click"/>
+            <DatePicker x:Name="dpkDOR" Canvas.Left="170" Canvas.Top="74" SelectedDateFormat="Short"/>
+            <Label Content="Gender" Canvas.Left="70" Canvas.Top="219"/>
+            <ComboBox x:Name="cmbxGender" Canvas.Left="170" Canvas.Top="221" Width="54" SelectedIndex="0">
+                <ComboBoxItem Content="F"/>
+                <ComboBoxItem Content="M"/>
+            </ComboBox>
+            <CheckBox x:Name="cxvGender" Content="" Canvas.Left="13" Canvas.Top="225" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfGender" Content="" Canvas.Left="50" Canvas.Top="225" Click="checkedBoxes_Click"/>
+            <Label Content="Address" Canvas.Left="70" Canvas.Top="239"/>
+            <TextBox x:Name="txtAddress" TextWrapping="Wrap" Width="114" Canvas.Left="170" Canvas.Top="244"/>
+            <CheckBox x:Name="cxvAddress" Content="" Canvas.Left="13" Canvas.Top="245" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfAddress" Content="" Canvas.Left="50" Canvas.Top="245" Click="checkedBoxes_Click"/>
+            <Label Content="NIC" Canvas.Left="70" Canvas.Top="259"/>
+            <TextBox x:Name="txtNIC" TextWrapping="Wrap" Canvas.Left="170" Canvas.Top="264" Width="84"/>
+            <CheckBox x:Name="cxvNIC" Content="" Canvas.Left="13" Canvas.Top="265" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfNIC" Content="" Canvas.Left="50" Canvas.Top="265" Click="checkedBoxes_Click"/>
+            <Label Content="Nationality" Canvas.Left="70" Canvas.Top="279"/>
+            <TextBox x:Name="txtNationality" TextWrapping="Wrap" Width="158" Canvas.Left="170" Canvas.Top="284"/>
+            <CheckBox x:Name="cxvNationality" Content="" Canvas.Left="13" Canvas.Top="285" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfNationality" Content="" Canvas.Left="50" Canvas.Top="285" Click="checkedBoxes_Click"/>
+            <Label Content="Email" Canvas.Left="70" Canvas.Top="299"/>
+            <TextBox x:Name="txtEmail" TextWrapping="Wrap" Width="158" Canvas.Left="170" Canvas.Top="303"/>
+            <CheckBox x:Name="cxvEmail" Content="" Canvas.Left="13" Canvas.Top="305" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfEmail" Content="" Canvas.Left="50" Canvas.Top="305" Click="checkedBoxes_Click"/>
+            <Label Content="Tele No" Canvas.Left="70" Canvas.Top="319"/>
+            <TextBox x:Name="txtTeleNo" TextWrapping="Wrap" Canvas.Left="170" Canvas.Top="323" Width="75"/>
+            <CheckBox x:Name="cxvTeleNo" Content="" Canvas.Left="13" Canvas.Top="325" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfTeleNo" Content="" Canvas.Left="50" Canvas.Top="325" Click="checkedBoxes_Click"/>
+            <Label Content="Parent Name" Height="26" Canvas.Left="70" Canvas.Top="339"/>
+            <TextBox x:Name="txtParentName" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="343" Width="158"/>
+            <CheckBox x:Name="cxvParentName" Content="" Height="16" Canvas.Left="13" Canvas.Top="345" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfParentName" Content="" Height="16" Canvas.Left="50" Canvas.Top="345" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Occupation" Height="26" Canvas.Left="70" Canvas.Top="359"/>
+            <TextBox x:Name="txtOccupation" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="363" Width="158"/>
+            <CheckBox x:Name="cxvOccupation" Content="" Height="16" Canvas.Left="13" Canvas.Top="365" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfOccupation" Content="" Height="16" Canvas.Left="50" Canvas.Top="365" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Parent Tele No" Height="26" Canvas.Left="70" Canvas.Top="380"/>
+            <TextBox x:Name="txtParentTeleNo" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="383" Width="75"/>
+            <CheckBox x:Name="cxvParentTeleNo" Content="" Height="16" Canvas.Left="13" Canvas.Top="385" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfParentTeleNo" Content="" Height="16" Canvas.Left="50" Canvas.Top="385" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Batch Year" Canvas.Left="70" Canvas.Top="98"/>
+            <ComboBox x:Name="cmbxBatchYear" Canvas.Left="170" Canvas.Top="100" Width="54" SelectedIndex="0">
+                <ComboBoxItem Content="2017"/>
+                <ComboBoxItem Content="2018"/>
+            </ComboBox>
+            <CheckBox x:Name="cxvBatchYear" Content="" Canvas.Left="13" Canvas.Top="104" RenderTransformOrigin="0.55,2.067" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfBatchYear" Content="" Canvas.Left="50" Canvas.Top="104" Click="checkedBoxes_Click"/>
+            <Label Content="Course" Canvas.Left="70" Canvas.Top="118"/>
+            <CheckBox x:Name="cxvCourse" Content="" Canvas.Left="13" Canvas.Top="124" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfCourse" Content="" Canvas.Left="50" Canvas.Top="124" Click="checkedBoxes_Click"/>
+            <ComboBox x:Name="cmbxCourse" Canvas.Left="170" Canvas.Top="122" Width="54" RenderTransformOrigin="0.444,4.909" SelectedIndex="0">
+                <ComboBoxItem Content="SE"/>
+                <ComboBoxItem Content="IT"/>
+            </ComboBox>
+            <Label Content="Age" Canvas.Left="70" Canvas.Top="171"/>
+            <TextBox x:Name="txtAge" TextWrapping="Wrap" Width="20" Canvas.Left="170" Canvas.Top="177"/>
+            <CheckBox x:Name="cxvAge" Content="" Canvas.Left="13" Canvas.Top="177" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfAge" Content="" Canvas.Left="50" Canvas.Top="177" Click="checkedBoxes_Click"/>
+            <Label Content="Inactive" Canvas.Left="70" Canvas.Top="140"/>
+            <CheckBox x:Name="cxvInactiveReason" Content="" Canvas.Left="13" Canvas.Top="146" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfInactiveReason" Content="" Canvas.Left="50" Canvas.Top="146" Click="checkedBoxes_Click"/>
+            <TextBox x:Name="txtInactiveReason" TextWrapping="Wrap" Width="158" Canvas.Left="169" Canvas.Top="144"/>
+            <Label Content="Qualification Type" Canvas.Left="70" Canvas.Top="411"/>
+            <ComboBox x:Name="cmbxQualType" Canvas.Left="175" Canvas.Top="413" Width="54" SelectedIndex="0">
+                <ComboBoxItem Content="O/L"/>
+                <ComboBoxItem Content="A/L"/>
+                <ComboBoxItem Content="Other"/>
+            </ComboBox>
+            <CheckBox x:Name="cxvQualType" Content="" Canvas.Left="13" Canvas.Top="417" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfQualType" Content="" Canvas.Left="50" Canvas.Top="417" Click="checkedBoxes_Click" IsEnabled="False" Visibility="Hidden"/>
+            <Label Content="Index No" Height="26" Canvas.Left="70" Canvas.Top="432"/>
+            <TextBox x:Name="txtQualIndexNo" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="435" Width="158"/>
+            <CheckBox x:Name="cxvQualIndexNo" Content="" Height="16" Canvas.Left="13" Canvas.Top="437" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfQualIndexNo" Content="" Height="16" Canvas.Left="50" Canvas.Top="437" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Year" Height="26" Canvas.Left="70" Canvas.Top="453"/>
+            <TextBox x:Name="txtQualYear" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="456" Width="32"/>
+            <CheckBox x:Name="cxvQualYear" Content="" Height="16" Canvas.Left="13" Canvas.Top="458" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfQualYear" Content="" Height="16" Canvas.Left="50" Canvas.Top="458" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="London" Canvas.Left="234" Canvas.Top="453"/>
+            <CheckBox x:Name="cxfLondon" Content="" Canvas.Left="290" Canvas.Top="459" Click="checkedBoxes_Click" IsEnabled="False"/>
+            <Label Content="School/Institute" Height="26" Canvas.Left="70" Canvas.Top="474"/>
+            <TextBox x:Name="txtSchlInst" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="477" Width="158"/>
+            <CheckBox x:Name="cxvSchlInst" Content="" Height="16" Canvas.Left="13" Canvas.Top="479" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfSchlInst" Content="" Height="16" Canvas.Left="50" Canvas.Top="479" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Payment Option" Canvas.Left="70" Canvas.Top="505"/>
+            <ComboBox x:Name="cmbxPaymentOption" Canvas.Left="170" Canvas.Top="507" Width="54" IsEnabled="False" SelectedIndex="0" Visibility="Hidden">
+                <ComboBoxItem Content="12M"/>
+                <ComboBoxItem Content="6M"/>
+                <ComboBoxItem Content="3M"/>
+                <ComboBoxItem Content="1M"/>
+            </ComboBox>
+            <CheckBox x:Name="cxvPaymentOption" Content="" Canvas.Left="13" Canvas.Top="511" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfPaymentOption" Content="" Canvas.Left="50" Canvas.Top="511" IsEnabled="False" Click="checkedBoxes_Click" Visibility="Hidden"/>
+            <Label Content="Not Paid" Canvas.Left="234" Canvas.Top="505"/>
+            <CheckBox x:Name="cxfNotPaid" Content="" Canvas.Left="290" Canvas.Top="511" Click="checkedBoxes_Click" IsEnabled="False"/>
+            <Label Content="Registration Fee" Height="26" Canvas.Left="70" Canvas.Top="547"/>
+            <TextBox x:Name="txtRegFee" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="550" Width="45"/>
+            <CheckBox x:Name="cxvRegFee" Content="" Height="16" Canvas.Left="13" Canvas.Top="552" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfRegFee" Content="" Height="16" Canvas.Left="50" Canvas.Top="552" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Amount Paying" Height="26" Canvas.Left="71" Canvas.Top="568" Width="94"/>
+            <TextBox x:Name="txtAmount" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="571" Width="45"/>
+            <CheckBox x:Name="cxvAmount" Content="" Height="16" Canvas.Left="13" Canvas.Top="573" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfAmount" Content="" Height="16" Canvas.Left="50" Canvas.Top="573" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Slip No" Height="26" Canvas.Left="71" Canvas.Top="589" Width="94"/>
+            <TextBox x:Name="txtSlipNo" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="592" Width="158"/>
+            <CheckBox x:Name="cxvSlipNo" Content="" Height="16" Canvas.Left="13" Canvas.Top="594" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfSlipNo" Content="" Height="16" Canvas.Left="50" Canvas.Top="594" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Scholarship" Height="26" Canvas.Left="71" Canvas.Top="526" Width="94"/>
+            <TextBox x:Name="txtScholarship" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="529" Width="32"/>
+            <CheckBox x:Name="cxvScholarship" Content="" Height="16" Canvas.Left="13" Canvas.Top="531" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfScholarship" Content="" Height="16" Canvas.Left="50" Canvas.Top="531" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="Paid Date" Height="26" Canvas.Left="71" Canvas.Top="610" Width="94"/>
+            <CheckBox x:Name="cxvPaidDate" Content="" Height="16" Canvas.Left="13" Canvas.Top="615" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfPaidDate" Content="" Height="16" Canvas.Left="50" Canvas.Top="615" Width="20" Click="checkedBoxes_Click"/>
+            <Label Content="No of payments" Height="26" Canvas.Left="71" Canvas.Top="631" Width="94"/>
+            <TextBox x:Name="txtNOPD" TextWrapping="Wrap" Height="18" Canvas.Left="170" Canvas.Top="634" Width="20"/>
+            <CheckBox x:Name="cxvNOPD" Content="" Height="16" Canvas.Left="13" Canvas.Top="636" Width="20" Click="checkedBoxes_Click"/>
+            <CheckBox x:Name="cxfNOPD" Content="" Height="16" Canvas.Left="50" Canvas.Top="636" Width="20" Click="checkedBoxes_Click"/>
+            <DatePicker x:Name="dpkPaidDate" Canvas.Left="170" Canvas.Top="610" SelectedDateFormat="Short" RenderTransformOrigin="0.814,14.042"/>
+            <Label Content="Combine" Canvas.Left="290" Canvas.Top="241"/>
+            <CheckBox x:Name="cxfAddressCombine" Content="" Canvas.Left="346" Canvas.Top="247" Click="checkedBoxes_Click"/>
+            <Button x:Name="btnExecute" Content="Request" HorizontalAlignment="Left" Height="34" VerticalAlignment="Top" Width="94" Click="btnExecute_Click" FontSize="16" Canvas.Left="296" Canvas.Top="637" Background="#FF00A8FF" Foreground="White"/>
+            <Label Content="View" Canvas.Left="4" Canvas.Top="6"/>
+            <Label Content="Filter" Canvas.Left="39" Canvas.Top="6"/>
+        </Canvas>
+        <TextBox x:Name="txtQueryBox" HorizontalAlignment="Left" Margin="435,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443" Height="93"/>
+        <Button x:Name="btnFilterDisplay" Content="&gt;&gt;" HorizontalAlignment="Left" Height="30" Margin="0,39,0,0" VerticalAlignment="Top" Width="30" Click="btnFilterDisplay_Click" RenderTransformOrigin="2.6,1.6" FontWeight="Bold"/>
+        <Rectangle Fill="#FF66358E" HorizontalAlignment="Left" Height="670" Margin="0,69,0,0" VerticalAlignment="Top" Width="30"/>
+        <Image x:Name="imgUser" HorizontalAlignment="Left" Height="36" Margin="1113,2,0,0" VerticalAlignment="Top" Width="36" Source="default-avatar-profile-icon-grey-photo-placeholder-vector-17317730.jpg" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="38" Margin="30,1,0,0" VerticalAlignment="Top" Source="LNBTI_logo.png"/>
+        <DataGrid x:Name="dgdOption_1" HorizontalAlignment="Left" Height="90" Margin="435,280,0,0" VerticalAlignment="Top" Width="879" SelectionChanged="dgdMain_SelectionChanged" MouseDoubleClick="dgdOption_1_MouseDoubleClick"/>
+        <DataGrid x:Name="dgdOption_2" HorizontalAlignment="Left" Height="90" Margin="435,395,0,0" VerticalAlignment="Top" Width="879" SelectionChanged="dgdMain_SelectionChanged"/>
+        <DataGrid x:Name="dgdOption_3" HorizontalAlignment="Left" Height="90" Margin="435,505,0,0" VerticalAlignment="Top" Width="879" SelectionChanged="dgdMain_SelectionChanged"/>
+        <DataGrid x:Name="dgdOption_4" HorizontalAlignment="Left" Height="90" Margin="435,610,0,0" VerticalAlignment="Top" Width="879" SelectionChanged="dgdMain_SelectionChanged"/>
+        <TextBox x:Name="txtQueryBox_1" HorizontalAlignment="Left" Margin="883,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" Height="93"/>
+        <StatusBar VerticalAlignment="Bottom" Margin="0">
+            <Label Content="Status"/>
+            <Label x:Name="lblStatus" Content=""/>
+        </StatusBar>
+        <Button x:Name="btnAddStudent" Content="Add Student" HorizontalAlignment="Left" Height="37" Margin="1046,197,0,0" VerticalAlignment="Top" Width="121" Click="btnAddStudent_Click" FontSize="16"/>
+        <Button x:Name="btnAddPayment" Content="New Payment" HorizontalAlignment="Left" Height="37" Margin="757,197,0,0" VerticalAlignment="Top" Width="121" Click="btnAddPayment_Click" FontSize="16"/>
+        <Button x:Name="btnEditStudent" Content="Edit Student" HorizontalAlignment="Left" Height="37" Margin="1175,197,0,0" VerticalAlignment="Top" Width="121" Click="btnEditStudent_Click" FontSize="16"/>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="104,5,0,0" TextWrapping="Wrap" Text="Database Management Interface" VerticalAlignment="Top" Width="444" Foreground="Black" FontSize="20"/>
+        <Button x:Name="btnAdmin" Content="Open Database Admin Page" HorizontalAlignment="Left" Height="34" Margin="1133,95,0,0" VerticalAlignment="Top" Width="221" FontSize="16" Click="btnAdmin_Click"/>
+
+    </Grid>
+</Window>
